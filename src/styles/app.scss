@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+}
+h1,
+h2,
+h3 {
+  color: rgb(54, 54, 54);
+}
+
+body {
+  font-family: "Almarai", sans-serif;
+}
+
+h3,
+h4 {
+  // font-weight: 500;
+  color: rgb(92, 91, 91);
+}
+
+.App {
+  transition: all 0.5s ease;
+}
+
+.library-active {
+  margin-left: 30%;
+}
+@import "./song";
+@import "./player";
+@import "./library";
+@import "./nav";
